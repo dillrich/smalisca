@@ -208,7 +208,7 @@ Parsing
 
 I'll first **parse** some directory for **Smali** files before doing the analysis stuff::
 
-    $ smalisca parser -l ~/tmp/FakeBanker2/dumped/smali -s java -f sqlite  -o fakebanker.sqlite
+    $ smalisca parser -l ~/tmp/FakeBanker2/dumped/smali -s smali -f sqlite  -o fakebanker.sqlite
 
     ...
 
